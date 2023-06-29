@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 20px;
     border: 1px solid black;
+    margin-bottom: 30px;
 }
 #logo{
     width: 80px;
@@ -40,6 +41,27 @@
 
 .res:hover{
     background-color: aquamarine;
+}
+
+.search-bar{
+    display: inline;
+}
+
+.search-bar>input{
+    margin-right: 12px;
+}
+
+.filter-btn {
+    display: inline;
+    margin: 20px;
+}
+
+.filter-btn > button{
+    cursor: pointer;
+}
+
+.search-bar>button{
+    cursor: pointer;
 }
 
 
